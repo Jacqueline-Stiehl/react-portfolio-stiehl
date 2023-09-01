@@ -4,6 +4,7 @@
 //look at Header.js in Activity #21
 
 import React from "react";
+import { useEffect, useState } from "react";
 //import "../styles/Header.css"
 
 function Header() {

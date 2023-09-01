@@ -1,8 +1,12 @@
 import React from "react";
-import Nav from 'react-bootstrap/Nav';
+import { useEffect, useState } from "react";
+import Nav from 'react-bootstrap/Nav'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //see Navbar.js in activity #21 for below:
-export default function Navigation() {
+export default function Navigation(props) {
+  const [ hideText, setHideText ] = useState(false)
+
   const style = {
     card: { 
         background: "22223B", 
@@ -19,6 +23,16 @@ export default function Navigation() {
     },
 }
 
+useEffect(() => {
+    console.log("Hello")
+}, [window.location.href])
+
+//   async function getPortfolio(){
+//     const resp = await Portfolio
+//     const data = await resp.json()
+//     setPortfolio(data)
+//   }
+
   return (
     <>
       <Nav className="justify-content-end" activeKey="/home">
@@ -26,7 +40,11 @@ export default function Navigation() {
           <Nav.Link style={{color: "#c9ada7"}} href="/home">About Me</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link style={{color: "#c9ada7"}} eventKey="link-1">Portfolio</Nav.Link>
+        { hideText === false && (
+            <>{ props.children }</>
+          )}
+        <Nav.Link onBlur={() => setHideText(!hideText)} style={{color: "#c9ada7"}} eventKey="link-1">Portfolio</Nav.Link>
+          {/* <Nav.Link onClick={getPortfolio} style={{color: "#c9ada7"}} eventKey="link-1">Portfolio</Nav.Link> */}
         </Nav.Item>
         <Nav.Item>
           <Nav.Link style={{color: "#c9ada7"}} eventKey="link-2">Contact</Nav.Link>

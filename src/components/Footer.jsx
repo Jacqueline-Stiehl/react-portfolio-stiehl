@@ -4,6 +4,7 @@
 //profile on a third platform (Stack Overflow, Twitter)
 
 import React from "react";
+import { useEffect, useState } from "react";
 import { FaTwitter, FaTwitterSquare, FaLinkedinIn, FaLinkedin, FaGithubSquare, FaGithub } from 'react-icons/fa';
 //import "../styles/Header.css"
 
