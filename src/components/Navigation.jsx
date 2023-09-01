@@ -35,22 +35,23 @@ useEffect(() => {
 
   return (
     <>
-      <Nav className="justify-content-end" activeKey="/home">
+      <Nav style={style.card} className="justify-content-end" activeKey="/home">
         <Nav.Item>
-          <Nav.Link style={{color: "#c9ada7"}} href="/home">About Me</Nav.Link>
+          <Nav.Link onClick={() => props.handlePageChange('About')} style={style.heading} href="/home">About Me</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        { hideText === false && (
+        {/* { hideText === false && (
             <>{ props.children }</>
-          )}
-        <Nav.Link onBlur={() => setHideText(!hideText)} style={{color: "#c9ada7"}} eventKey="link-1">Portfolio</Nav.Link>
+          )} */}
+        {/* <Nav.Link onBlur={() => setHideText(!hideText)} style={style.heading} href="#" eventKey="link-1">Portfolio</Nav.Link> */}
+        <Nav.Link onClick={() => props.handlePageChange('Portfolio')} style={style.heading} href="#" eventKey="link-1">Portfolio</Nav.Link>
           {/* <Nav.Link onClick={getPortfolio} style={{color: "#c9ada7"}} eventKey="link-1">Portfolio</Nav.Link> */}
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link style={{color: "#c9ada7"}} eventKey="link-2">Contact</Nav.Link>
+          <Nav.Link onClick={() => props.handlePageChange('Contact')} style={style.heading} href="#" eventKey="link-2">Contact</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link style={{color: "#c9ada7"}} eventKey="link-2">Resume</Nav.Link>
+          <Nav.Link onClick={() => props.handlePageChange('Resume')} style={style.heading} href="#" eventKey="link-3">Resume</Nav.Link>
         </Nav.Item>
       </Nav>
     </>

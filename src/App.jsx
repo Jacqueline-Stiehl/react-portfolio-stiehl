@@ -29,9 +29,9 @@ function App() {
     <>
       <div>
         <Header/>
-        <Navigation/>
-        <Project>
-          <h1>About Me</h1>
+        {/* <Navigation/> */}
+        <Project/>
+          {/* <h1>About Me</h1>
           <p style={{border: "1px solid red"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </Project>
         <Project>
@@ -42,7 +42,7 @@ function App() {
         </Project>
         <Project>
           <h4>Resume</h4>
-        </Project>
+        </Project> */}
         {/* 1:15 to 1:18 mark on 8-23-23 recording */}
         {/* {onClick={true} (
           // <Project/>
