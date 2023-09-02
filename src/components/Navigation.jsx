@@ -18,7 +18,8 @@ export default function Navigation(props) {
         minHeight: 50,
         lineHeight: 3.5,
         fontSize: "1.2rem",
-        color: "F2E9E4",
+        // color: "F2E9E4",
+        color: "#f2e9e4",
         padding: "20px",
     },
 }

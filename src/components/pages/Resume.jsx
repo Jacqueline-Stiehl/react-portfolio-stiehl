@@ -4,9 +4,49 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      {/* <h3>Download my resume</h3> */}
+      <a style={{color: "#c9ada7", fontSize: "25px"}} href="../src/assets/Resume.png">Download my Resume</a>
+      <h4>Front-End Skills
+      </h4>
+      <ul>
+        <li>
+          React
+        </li>
+        <li>
+          JavaScript
+        </li>
+        <li>
+          HTML/CSS
+        </li>
+        <li>
+          jQuery
+        </li>
+        <li>
+          Responsive Design
+        </li>
+        <li>
+          Bootstrap
+        </li>
+      </ul>
+      <h4>Back-End Skills
+      </h4>
+      <ul>
+        <li>
+          RESTful APIs
+        </li>
+        <li>
+          Node
+        </li>
+        <li>
+          Express
+        </li>
+        <li>
+          MySQL, Sequelize
+        </li>
+        <li>
+          MongoDB
+        </li>
+      </ul>
     </div>
   );
 }
