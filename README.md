@@ -53,18 +53,3 @@ https://github.com/Jacqueline-Stiehl/react-portfolio-stiehl
 ## URL of deployed application
 
 https://jacqueline-stiehl.github.io/pwa-texteditor-jstiehl/
-
-## Heroku
-
-Heroku app name: pwa-texteditor-jstiehl:
-
-https://pwa-texteditor-jstiehl-2eb963dc3224.herokuapp.com/
-application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-- The URL of the functional, deployed application.
-
-- The URL of the GitHub repository, with a unique name and a README that describes the project.

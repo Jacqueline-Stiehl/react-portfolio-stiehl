@@ -4,7 +4,6 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      {/* <h3>Download my resume</h3> */}
       <a style={{color: "#c9ada7", fontSize: "25px"}} href="../src/assets/Resume.png">Download my Resume</a>
       <h4>Front-End Skills
       </h4>

@@ -1,12 +1,4 @@
-// WHEN I view the header
-// THEN I am presented with the developer's name and navigation 
-//with titles corresponding to different sections of the portfolio
-//look at Header.js in Activity #21
-
 import React from "react";
-import { useEffect, useState } from "react";
-//import "../styles/Header.css"
-
 
 
 function Header() {
