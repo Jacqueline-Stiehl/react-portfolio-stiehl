@@ -76,8 +76,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Social Network</Card.Title>
-           {/* <Card.Img variant="top" src="../src/assets/Screenshot-NoSQL-socialnetwork.png" /> */}
-           <Card.Img variant="top" src="../src/assets/Pic10.jpg" />
+           <Card.Img variant="top" src="../src/assets/Screenshot-NoSQL-socialnetwork.png" />
+           {/* <Card.Img variant="top" src="../src/assets/Pic10.jpg" /> */}
            <Card.Body>
              
              {/* <Button a href="https://watch.screencastify.com/v/CzQ2eKVVoxhSFH8ChD3f" variant="info">Social Network</Button> */}
@@ -94,8 +94,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>PWA Text Editor</Card.Title>
-           {/* <Card.Img variant="top" src="../src/assets/Screenshot-pwa-texteditor.png" /> */}
-           <Card.Img variant="top" src="../src/assets/Pic1.jpg" />
+           <Card.Img variant="top" src="../src/assets/Screenshot-pwa-texteditor.png" />
+           {/* <Card.Img variant="top" src="../src/assets/Pic1.jpg" /> */}
            <Card.Body>
              {/* <Card.Title>PWA Text Editor</Card.Title> */}
              {/* <Button a href="https://pwa-texteditor-jstiehl-2eb963dc3224.herokuapp.com/" variant="info">PWA Text Editor</Button> */}
@@ -113,8 +113,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Express Note Taker</Card.Title>
-           {/* <Card.Img variant="top" src="../src/assets/Screenshot-notetaker.png" /> */}
-           <Card.Img variant="top" src="../src/assets/Pic7.jpg" />
+           <Card.Img variant="top" src="../src/assets/Screenshot-notetaker.png" />
+           {/* <Card.Img variant="top" src="../src/assets/Pic7.jpg" /> */}
            <Card.Body>
              
              {/* <Button a href="https://note-taker-jstiehl-df68c54ee51b.herokuapp.com/" variant="info">Express Note Taker</Button> */}
