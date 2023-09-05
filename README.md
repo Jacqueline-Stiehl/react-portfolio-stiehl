@@ -52,4 +52,4 @@ https://github.com/Jacqueline-Stiehl/react-portfolio-stiehl
 
 ## URL of deployed application
 
-https://jacqueline-stiehl.github.io/pwa-texteditor-jstiehl/
+https://jacqueline-stiehl.github.io/react-portfolio-stiehl/
