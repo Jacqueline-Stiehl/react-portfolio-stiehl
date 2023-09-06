@@ -53,3 +53,7 @@ https://github.com/Jacqueline-Stiehl/react-portfolio-stiehl
 ## URL of deployed application
 
 https://jacqueline-stiehl.github.io/react-portfolio-stiehl/
+
+## URL of application deployed on Netlify
+
+https://master--steady-longma-5bb57a.netlify.app/home
