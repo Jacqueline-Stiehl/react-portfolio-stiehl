@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePng from "../../assets/Resume.png"
+import resumePDF from "../../assets/Resume.pdf"
 import { Container, Row } from "react-bootstrap"
 import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer"
 
@@ -10,7 +10,7 @@ import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer"
 */
 
 export default function Resume() {
-  const docs = [{ uri: require("../../assets/Resumepdf.pdf")}]
+  const docs = [{ uri: resumePDF }]
   return (
     <div>
       <h1>Resume</h1>
