@@ -1,10 +1,25 @@
 import React from 'react';
+import resumePng from "../../assets/Resume.png"
+import { Container, Row } from "react-bootstrap"
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer"
+
+/*
+  <a href="/page">
+    <img src={resumePng} alt="My image" />
+  </>
+*/
 
 export default function Resume() {
+  const docs = [{ uri: require("../../assets/Resumepdf.pdf")}]
   return (
     <div>
       <h1>Resume</h1>
-      <a style={{color: "#c9ada7", fontSize: "25px"}} href="../src/assets/Resume.png">Download my Resume</a>
+      <Container>
+        <Row>
+          <DocViewer pluginRenderers={DocViewerRenderers} documents={docs}/>
+        </Row>
+      </Container>
+      {/* <a style={{color: "#c9ada7", fontSize: "25px"}} href={resumePng}>Download my Resume</a> */}
       <h4>Front-End Skills
       </h4>
       <ul>
