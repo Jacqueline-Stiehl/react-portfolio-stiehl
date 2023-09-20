@@ -87,7 +87,7 @@ export default function Portfolio() {
          </Card>
        </Col>
      ))}
-     {Array.from({ length: 1 }).map((_, idx) => (
+     {/* {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
          <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>PWA Text Editor</Card.Title>
@@ -101,7 +101,7 @@ export default function Portfolio() {
            </Card.Body>
          </Card>
        </Col>
-     ))}
+     ))} */}
      
      {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
