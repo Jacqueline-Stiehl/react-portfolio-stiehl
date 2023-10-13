@@ -23,7 +23,7 @@ export default function Portfolio() {
      <Row xs={1} md={2} lg={3} className="g-4">
      {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
-         <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
+         <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>MinneGrowta</Card.Title>
            <Card.Img variant="top" src={minnegrowta} fluid />
            <Card.Body>
@@ -43,7 +43,7 @@ export default function Portfolio() {
      ))}
      {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
-         <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
+         <Card style={{ height: "100vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Tech Blog</Card.Title>
            <Card.Img variant="top" src={techBlog} fluid />
            <Card.Body>
