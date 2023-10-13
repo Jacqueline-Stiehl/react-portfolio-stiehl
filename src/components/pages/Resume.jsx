@@ -1,5 +1,6 @@
 import React from 'react';
-import resumePDF from "../../assets/Resume.pdf"
+// import resumePDF from "../../assets/Resume.pdf"
+import resumePDF from "../../assets/Resume-Jacqueline-Stiehl.pdf"
 import { Container, Row } from "react-bootstrap"
 import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer"
 
