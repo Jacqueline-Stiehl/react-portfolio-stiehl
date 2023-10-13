@@ -29,7 +29,15 @@ export default function Portfolio() {
            <Card.Body>
              <Card.Link href="https://minnegrowta-66ed74e127f3.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/laurbaur024/minnegrowta">GitHub Repo</Card.Link>
+             <Card.Text>This application is a one-stop shop for information on starting your own vegetable, fruit, or
+              flower garden in Minnesota with tips, a community forum, and planting and harvesting
+              timelines.</Card.Text>
+              <Card.Text>This was a group project and my core individual responsibilities included the sign up and
+              log in features/components and the My Favorites page.</Card.Text>
+              <Card.Text>This application was created using MERN, Chakra, Knightlab Timeline, React-Uploader,
+              and React Modal.</Card.Text>
            </Card.Body>
+           
          </Card>
        </Col>
      ))}
@@ -41,6 +49,11 @@ export default function Portfolio() {
            <Card.Body>
              <Card.Link href="https://mvc-techblog-jstiehl-e87070ff2360.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Jacqueline-Stiehl/mvc-tech-blog-jstiehl">GitHub Repo</Card.Link>
+             <Card.Text>This application is a tech blog site where users can read others' blog posts, comment on
+              them, and sign up/log in to submit their own posts.</Card.Text>
+              <Card.Text>This was an individual project created by me.</Card.Text>
+              <Card.Text>This application follows the MVC structure and uses Handlebars.js, Sequelize and
+              Express-session.</Card.Text>
            </Card.Body>
          </Card>
        </Col>
