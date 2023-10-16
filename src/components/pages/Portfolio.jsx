@@ -25,7 +25,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>MinneGrowta</Card.Title>
-           <Card.Img variant="top" src={minnegrowta} fluid />
+           {/* <Card.Img variant="top" src={minnegrowta} fluid /> */}
+           <Card.Img className="d-block w-100 block-example border border-dark" src={minnegrowta} fluid />
            <Card.Body>
              <Card.Link href="https://minnegrowta-66ed74e127f3.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/laurbaur024/minnegrowta">GitHub Repo</Card.Link>
