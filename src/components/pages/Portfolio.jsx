@@ -26,7 +26,7 @@ export default function Portfolio() {
          <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>MinneGrowta</Card.Title>
            {/* <Card.Img variant="top" src={minnegrowta} fluid /> */}
-           <Card.Img className="d-block w-100 block-example border border-dark" src={minnegrowta} />
+           <Card.Img className="d-block w-100 block-example border border-dark" src={minnegrowta} fluid />
            <Card.Body>
              <Card.Link href="https://minnegrowta-66ed74e127f3.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/laurbaur024/minnegrowta">GitHub Repo</Card.Link>
@@ -46,7 +46,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Tech Blog</Card.Title>
-           <Card.Img variant="top" src={techBlog} fluid />
+           {/* <Card.Img variant="top" src={techBlog} fluid /> */}
+           <Card.Img className="d-block w-100 block-example border border-dark" src={techBlog} fluid />
            <Card.Body>
              <Card.Link href="https://mvc-techblog-jstiehl-e87070ff2360.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Jacqueline-Stiehl/mvc-tech-blog-jstiehl">GitHub Repo</Card.Link>
@@ -63,7 +64,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Work Day Scheduler</Card.Title>
-           <Card.Img variant="top" src={scheduler} fluid/>
+           {/* <Card.Img variant="top" src={scheduler} fluid/> */}
+           <Card.Img className="d-block w-100 block-example border border-dark" src={scheduler} fluid />
            <Card.Body>
              <Card.Link href="https://jacqueline-stiehl.github.io/3p-api-work-day-scheduler-jstiehl/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Jacqueline-Stiehl/3p-api-work-day-scheduler-jstiehl">GitHub Repo</Card.Link>
@@ -124,7 +126,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Express Note Taker</Card.Title>
-           <Card.Img variant="top" src={noteTaker} />
+           {/* <Card.Img variant="top" src={noteTaker} /> */}
+           <Card.Img className="d-block w-100 block-example border border-dark" src={noteTaker} fluid />
            <Card.Body>
              <Card.Link href="https://note-taker-jstiehl-df68c54ee51b.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Jacqueline-Stiehl/express-js-note-taker-jstiehl">GitHub Repo</Card.Link>
@@ -139,7 +142,8 @@ export default function Portfolio() {
        <Col key={idx}>
          <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Sudoku</Card.Title>
-           <Card.Img variant="top" src={sudoku} />
+           {/* <Card.Img variant="top" src={sudoku} /> */}
+           <Card.Img className="d-block w-100 block-example border border-dark" src={sudoku} fluid />
            <Card.Body>
              <Card.Link href="https://ad31aid.github.io/fantastic-octo-sudoku/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Ad31aid/fantastic-octo-sudoku">GitHub Repo</Card.Link>
