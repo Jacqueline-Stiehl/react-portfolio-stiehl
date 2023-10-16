@@ -11,7 +11,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/jacqueline-stiehl-b6a810289/" style={{color: "#c9ada7"}}> <FaLinkedinIn/>
         </a>
         {/* <a href="https://twitter.com/salsajackiemom?lang=ar-x-fm" style={{color: "#c9ada7"}}> <FaTwitter/></a> */}
-        <a href="https://twitter.com/salsajackiemom?lang=ar-x-fm" style={{color: "#c9ada7"}}> <FaEnvelope/></a>
+        <a href="mailto:salsajackie@yahoo.com" style={{color: "#c9ada7"}}> <FaEnvelope/></a>
         </footer>
         </>
     )
