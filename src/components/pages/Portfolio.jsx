@@ -66,11 +66,14 @@ export default function Portfolio() {
            <Card.Body>
              <Card.Link href="https://jacqueline-stiehl.github.io/3p-api-work-day-scheduler-jstiehl/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Jacqueline-Stiehl/3p-api-work-day-scheduler-jstiehl">GitHub Repo</Card.Link>
+             <Card.Text>This application is a password calendar with typical work day hours that is color coded according to past, present, and future hour time blocks. The user can enter and save tasks for each time block.</Card.Text>
+              <Card.Text>This was an individual project created by me.</Card.Text>
+              <Card.Text>This app uses jQuery and dynamically updated HTML.</Card.Text>
            </Card.Body>
          </Card>
        </Col>
      ))}
-     {Array.from({ length: 1 }).map((_, idx) => (
+     {/* {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
          <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Employee Tracker</Card.Title>
@@ -84,8 +87,8 @@ export default function Portfolio() {
            </Card.Body>
          </Card>
        </Col>
-     ))}
-     {Array.from({ length: 1 }).map((_, idx) => (
+     ))} */}
+     {/* {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
          <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Social Network</Card.Title>
@@ -99,7 +102,7 @@ export default function Portfolio() {
            </Card.Body>
          </Card>
        </Col>
-     ))}
+     ))} */}
      {/* {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
          <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
@@ -124,9 +127,9 @@ export default function Portfolio() {
            <Card.Body>
              <Card.Link href="https://note-taker-jstiehl-df68c54ee51b.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Jacqueline-Stiehl/express-js-note-taker-jstiehl">GitHub Repo</Card.Link>
-             <Card.Text>
-               
-             </Card.Text>
+             <Card.Text>This application is a Note Taker application that allows users to enter, save and delete notes. I built this to create a list of notes or reminders.</Card.Text>
+              <Card.Text>This was an individual project from the University of Minnesota Bootcamp that I added code to.</Card.Text>
+              <Card.Text>This app uses Express.js routes for GET, POST, PUT and DELETE to connect the front end and back end of the application.</Card.Text>
            </Card.Body>
          </Card>
        </Col>
@@ -139,9 +142,9 @@ export default function Portfolio() {
            <Card.Body>
              <Card.Link href="https://ad31aid.github.io/fantastic-octo-sudoku/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/Ad31aid/fantastic-octo-sudoku">GitHub Repo</Card.Link>
-             <Card.Text>
-               
-             </Card.Text>
+             <Card.Text>This application is a sudoku game with a leaderboard page, timer, scoring system and completion celebration. The user can select from various games and enter their name to appear on the leaderboard.</Card.Text>
+              <Card.Text>This was a group project and my core individual responsibilities included the leaderboard page.</Card.Text>
+              <Card.Text>This app uses HTML, CSS, JavaScriptBootstrap, jQuery, Confetti library and a sudoku-api.</Card.Text>
            </Card.Body>
          </Card>
        </Col>
