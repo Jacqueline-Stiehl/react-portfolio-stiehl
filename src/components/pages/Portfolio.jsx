@@ -30,7 +30,7 @@ export default function Portfolio() {
            <Card.Body>
              <Card.Link href="https://minnegrowta-66ed74e127f3.herokuapp.com/">Deployed App</Card.Link>
              <Card.Link href="https://github.com/laurbaur024/minnegrowta">GitHub Repo</Card.Link>
-             <Card.Text>This applicationN is a one-stop shop for information on starting your own vegetable, fruit, or
+             <Card.Text>This application is a one-stop shop for information on starting your own vegetable, fruit, or
               flower garden in Minnesota with tips, a community forum, and planting and harvesting
               timelines.</Card.Text>
               <Card.Text>This was a group project and my core individual responsibilities included the sign up and
