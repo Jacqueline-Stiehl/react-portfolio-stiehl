@@ -60,7 +60,7 @@ export default function Portfolio() {
      ))}
      {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
-         <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
+         <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Work Day Scheduler</Card.Title>
            <Card.Img variant="top" src={scheduler} fluid/>
            <Card.Body>
@@ -121,7 +121,7 @@ export default function Portfolio() {
      
      {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
-         <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
+         <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Express Note Taker</Card.Title>
            <Card.Img variant="top" src={noteTaker} />
            <Card.Body>
@@ -136,7 +136,7 @@ export default function Portfolio() {
      ))}
      {Array.from({ length: 1 }).map((_, idx) => (
        <Col key={idx}>
-         <Card style={{ height: "60vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
+         <Card style={{ height: "80vh", backgroundColor: "#f2e9e4", objectFit: "cover"}}>
            <Card.Title>Sudoku</Card.Title>
            <Card.Img variant="top" src={sudoku} />
            <Card.Body>
