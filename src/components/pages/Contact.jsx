@@ -69,7 +69,7 @@ return (
       <h1>Contact Me</h1>
     </div>
     <div>
-      <p>How to contact me:</p>
+      <h2>How to contact me:</h2>
       <ul>
         <li>GitHub: <a href="https://github.com/Jacqueline-Stiehl">https://github.com/Jacqueline-Stiehl</a> </li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/jacqueline-stiehl-b6a810289/">https://www.linkedin.com/in/jacqueline-stiehl-b6a810289/</a> </li>
