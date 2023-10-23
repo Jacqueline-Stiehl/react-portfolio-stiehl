@@ -69,7 +69,13 @@ return (
       <h1>Contact Me</h1>
     </div>
     <div>
-    <Form>
+      <p>How to contact me:</p>
+      <ul>
+        <li>GitHub: https://github.com/Jacqueline-Stiehl</li>
+        <li>LinkedIn: https://www.linkedin.com/in/jacqueline-stiehl-b6a810289/</li>
+        <li>Email:<a href="mailto:salsajackie@yahoo.com"> salsajackie@yahoo.com</a> </li>
+      </ul>
+    {/* <Form>
         <Form.Group className="mb-3 w-50">
           <Form.Label>Full name</Form.Label>
             <Form.Control 
@@ -105,7 +111,7 @@ return (
       
       <Button variant="primary" onClick={handleFormSubmit}>Submit</Button>
 
-      </Form>
+      </Form> */}
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
