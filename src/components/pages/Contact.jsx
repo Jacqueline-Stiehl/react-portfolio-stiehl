@@ -71,8 +71,8 @@ return (
     <div>
       <p>How to contact me:</p>
       <ul>
-        <li>GitHub: https://github.com/Jacqueline-Stiehl</li>
-        <li>LinkedIn: https://www.linkedin.com/in/jacqueline-stiehl-b6a810289/</li>
+        <li>GitHub: <a href="https://github.com/Jacqueline-Stiehl">https://github.com/Jacqueline-Stiehl</a> </li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/jacqueline-stiehl-b6a810289/">https://www.linkedin.com/in/jacqueline-stiehl-b6a810289/</a> </li>
         <li>Email:<a href="mailto:salsajackie@yahoo.com"> salsajackie@yahoo.com</a> </li>
       </ul>
     {/* <Form>
